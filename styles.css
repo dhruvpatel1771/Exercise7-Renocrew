@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.logo{
+    width: 43px;
+    height: 23px;
+    
+}
+
+.logo img{
+    width: 160px;
+    position: relative;
+    bottom: 10px;
+    right: 70px;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+    
+img{
+    width: 8px;
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+    
+}
+
+
+.nav_content ul{
+    display: flex;
+    
+}
+
+.nav_content ul li{
+    list-style: none;
+    padding: 17px;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    left: 70px;
+    
+    
+}
+
+.translate_logo img{
+    width: 18px;
+    position: relative;
+    top: 3px;
+    right: 7px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+span img{
+    width: 75px;
+    /* height: 15px; */
+    position: relative;
+    top: 1px;
+    left:1px;
+    
+    
+}
+
+.first span{
+    font-size: 45px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second p{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    width: 49vw;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    background-color: #db9c1f;
+    border: none;
+    border-radius: 6px;
+    
+    box-shadow:4px 5px 5px #ddcdae;;
+    position: relative;
+    bottom: 30px;
+}
+
+.second button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:1.5fr 1.5fr 1.5fr;
+}
+
+.item {
+    padding: 23px;
+    background: #d5d2d2;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    
+    margin:13px 48px 15px 82px;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.blue{
+    background-color: blue;
+    color: #ffffff;
+}
+
+
+.green{
+    background-color: rgb(47, 238, 25);
+    color: #ffffff;
+}
+   
+@media screen and (max-width: 1145px) {
+        .grid{ 
+            grid-template-columns: 1fr; 
+        }
+    }
