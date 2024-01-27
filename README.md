@@ -1,1 +1,1 @@
-Adding Grid design in the Website
+Added Grid design in the Website
